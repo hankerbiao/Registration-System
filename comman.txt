@@ -1,0 +1,2 @@
+ python -c "import json; from app.main import app; print(json.dumps(app.openapi()))" > /Users/libiao/Desktop/full-stack-fastapi-template-master/frontend/openapi.json
+  fastapi run --reload app/main.py
